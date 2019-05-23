@@ -1,0 +1,10 @@
+spring:
+  #国际化配置
+  messages:
+    encoding: utf-8
+    basename: i18n/login
+  #thymeleaf配置
+  thymeleaf:
+    mode: LEGACYHTML5
+
+    cache: false
