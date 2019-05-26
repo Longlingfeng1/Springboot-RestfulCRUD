@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class Employee {
 
-
 	private Integer id;
     private String lastName;
 
@@ -14,6 +13,8 @@ public class Employee {
     private Integer gender;
     private Department department;
     private Date birth;
+
+    private Integer dId;
 
     public Integer getId() {
         return id;
@@ -62,6 +63,15 @@ public class Employee {
     public void setBirth(Date birth) {
         this.birth = birth;
     }
+
+    public Integer getdId() {
+        return dId;
+    }
+
+    public void setdId(Integer dId) {
+        this.dId = dId;
+    }
+
     public Employee(Integer id, String lastName, String email, Integer gender,
                     Department department) {
         super();

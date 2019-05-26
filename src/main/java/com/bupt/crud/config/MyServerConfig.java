@@ -43,7 +43,7 @@ public class MyServerConfig {
         return servletListenerRegistrationBean;
     }
 
-    @Bean
+   //@Bean
     public WebServerFactoryCustomizer webServerFactoryCustomizer(){
 
         return new WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>() {
