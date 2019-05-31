@@ -9,4 +9,7 @@
     <insert id="addEmp">
         insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{d_id})
     </insert>
+    <select id="getEmpByName" resultType="com.bupt.crud.entities.Employee">
+    select * from employee where lastName = #{lastName}
+  </select>
 </mapper>

@@ -7,6 +7,16 @@ public class Employee {
 	private Integer id;
     private String lastName;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password;
+
     private String email;
 
     //1 male, 0 female
