@@ -17,6 +17,6 @@ public class Myservlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().write("hello myServlet");
-        System.out.println("lc add one line");
+        System.out.println("lc add one line master");
     }
 }
