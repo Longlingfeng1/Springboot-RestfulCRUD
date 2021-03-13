@@ -11,6 +11,7 @@ public class Myservlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req,resp);
+        System.out.println("master");
     }
 
     //处理post请求
@@ -18,5 +19,6 @@ public class Myservlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().write("hello myServlet");
         System.out.println("lc add one line master");
+
     }
 }
