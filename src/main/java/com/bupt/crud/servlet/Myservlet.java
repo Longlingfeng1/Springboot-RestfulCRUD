@@ -7,6 +7,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class Myservlet extends HttpServlet {
+
+    //处理get请求
+    private void doTx2(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("add new method");
+
+    }
     //处理get请求
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
