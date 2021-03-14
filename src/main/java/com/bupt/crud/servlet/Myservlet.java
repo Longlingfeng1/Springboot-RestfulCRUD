@@ -20,8 +20,8 @@ public class Myservlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        resp.getWriter().write("hello myServlet by tx");
-        System.out.println("lc add one line modify by lc");
+        resp.getWriter().write("hello myServlet");
+        System.out.println("lc add one line modify by lc new line");
 
     }
 }
