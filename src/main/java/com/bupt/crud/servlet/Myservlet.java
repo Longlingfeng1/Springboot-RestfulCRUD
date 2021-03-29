@@ -29,4 +29,8 @@ public class Myservlet extends HttpServlet {
         System.out.println("lc add one line modify by tx");
 
     }
+
+    public void newM(){
+        System.out.println("master newMethod added by tx2");
+    }
 }
