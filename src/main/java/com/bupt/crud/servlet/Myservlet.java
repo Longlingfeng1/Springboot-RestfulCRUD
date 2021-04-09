@@ -25,8 +25,11 @@ public class Myservlet extends HttpServlet {
     //处理post请求
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+
         resp.getWriter().write("hello myServlet by tx");
         System.out.println("lc add one line modify by tx");
+
 
     }
 
