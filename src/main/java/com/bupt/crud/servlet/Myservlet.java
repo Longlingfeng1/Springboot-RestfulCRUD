@@ -26,14 +26,14 @@ public class Myservlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-
-        resp.getWriter().write("hello myServlet by tx");
-        System.out.println("lc add one line modify by tx");
-
+        resp.getWriter().write("hello myServlet");
+        System.out.println("lc add one line modify by lc new line");
 
     }
+
 
     public void newM(){
         System.out.println("master newMethod added by tx2");
     }
+
 }
