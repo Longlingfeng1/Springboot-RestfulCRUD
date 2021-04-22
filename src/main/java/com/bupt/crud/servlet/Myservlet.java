@@ -21,7 +21,7 @@ public class Myservlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         resp.getWriter().write("hello myServlet");
-        System.out.println("lc add one line modify by lc new line");
+        System.out.println("lc add one line modify by lc new line 4.22updateByLc");
 
     }
 
