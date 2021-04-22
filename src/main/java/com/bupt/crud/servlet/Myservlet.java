@@ -33,4 +33,8 @@ public class Myservlet extends HttpServlet {
     public void newM(){
         System.out.println("master newMethod added by tx2");
     }
+
+    public void newTx2(){
+        System.out.println("tx2 add one method");
+    }
 }
