@@ -24,4 +24,10 @@ public class LcServiceImpl implements LcService {
     public void updateLc() {
         System.out.println("print lc 01");
     }
+
+    @Override
+    public void deleteLc() {
+        System.out.println("delete lc 01");
+    }
+
 }

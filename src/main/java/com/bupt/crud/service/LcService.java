@@ -17,4 +17,6 @@ package com.bupt.crud.service;
 
 public interface LcService {
     public void updateLc();
+
+    public void deleteLc();
 }
